@@ -1,0 +1,61 @@
+/* body style */
+body {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Anek Telugu', sans-serif;
+    justify-content: center;
+}
+
+/* body style end */
+
+/* header style start */
+.header-elements {
+    display: flex;
+    width: 1300px;
+    height: 500px;
+    color: antiquewhite;
+    background-color: black;
+
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.header-text {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+header p {
+    font-size: 20px;
+}
+
+button:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+header button {
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 10px;
+    font-weight: 700;
+}
+
+header button a {
+    text-decoration: none;
+}
+
+.header-image {
+    padding-top: 160px;
+    padding-right: 30px;
+}
+
+.header-image:hover {
+    transform: rotate(50deg);
+    transition: 0.2s;
+}
+
+/* header style end */
