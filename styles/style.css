@@ -1,15 +1,16 @@
-/* body style */
+/* page style */
 body {
-    font-family: 'Abel', sans-serif;
+    background-color: whitesmoke;
     font-family: 'Anek Telugu', sans-serif;
-    justify-content: center;
 }
 
 /* body style end */
 
 /* header style start */
+
 .header-elements {
     display: flex;
+    justify-content: center;
     width: 1300px;
     height: 500px;
     color: antiquewhite;
@@ -32,7 +33,7 @@ header p {
     font-size: 20px;
 }
 
-button:hover {
+header button:hover {
     transform: rotate(360deg);
     transition: 0.5s;
 }
@@ -59,3 +60,69 @@ header button a {
 }
 
 /* header style end */
+
+/* main style */
+.main {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aside {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+aside button {
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 5px;
+    color: black;
+    font-size: 700;
+}
+
+aside button a {
+    text-decoration: none;
+}
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    background-color: lightskyblue;
+    padding-left: 10px;
+
+
+}
+
+
+
+/* footer style */
+footer {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+/* media query for mobile */
+@media screen and (max-width: 680px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-elements {
+        width: 100%;
+    }
+}
